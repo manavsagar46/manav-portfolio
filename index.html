@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Manav Sagar • Portfolio</title>
+  <meta name="description" content="Manav Sagar — Full Stack & Frontend Developer (MERN). Modern single-page portfolio with projects, skills, and contact." />
+  <meta name="theme-color" content="#0b0f19" />
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <!-- Progress Bar -->
+  <div id="progress" class="progress-bar"></div>
+  
+  <!-- Navigation -->
+  <nav class="nav" id="navbar">
+    <div class="nav-inner">
+      <div class="brand">
+        <span class="dot"></span> 
+        <span>Manav Sagar</span>
+      </div>
+      
+      <div class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active" data-section="home">Home</a>
+        <a href="#about" class="nav-link" data-section="about">About</a>
+        <a href="#skills" class="nav-link" data-section="skills">Skills</a>
+        <a href="#projects" class="nav-link" data-section="projects">Projects</a>
+        <a href="#experience" class="nav-link" data-section="experience">Experience</a>
+        <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+      </div>
+      
+      <!-- Mobile Menu Toggle -->
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+      </button>
+      
+      <a class="cta" href="https://github.com/manavsagar46" target="_blank" rel="noopener noreferrer">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M12 .5a12 12 0 0 0-3.79 23.4c.6.11.82-.26.82-.57v-2.24c-3.34.73-4.04-1.61-4.04-1.61-.55-1.38-1.35-1.75-1.35-1.75-1.11-.76.08-.75.08-.75 1.22.09 1.86 1.26 1.86 1.26 1.09 1.87 2.86 1.33 3.56 1.02.11-.8.43-1.33.78-1.64-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.66 1.66.24 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.8 5.63-5.47 5.93.44.38.83 1.12.83 2.26v3.35c0 .31.21.68.83.56A12 12 0 0 0 12 .5Z"/>
+        </svg>
+        <span>GitHub</span>
+      </a>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="section hero-section">
+      <div class="container">
+        <div class="hero">
+          <div class="hero-content reveal">
+            <span class="badge">
+              <span class="badge-dot"></span>
+              Available for Projects
+            </span>
+            <h1 class="hero-title">Hi, I'm Manav Sagar</h1>
+            <p class="hero-roles">Full Stack Developer • Frontend Developer • MERN Stack Developer</p>
+            <p class="hero-description">I build modern, user‑friendly, and scalable web applications with clean design, smooth UX, and performance in mind.</p>
+            
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#projects">View Projects</a>
+              <a class="btn btn-secondary" href="#contact">Contact Me</a>
+            </div>
+            
+            <div class="hero-meta">
+              <div class="meta-item">📍 Based in India</div>
+              <div class="meta-item">🌐 Open to remote roles</div>
+            </div>
+          </div>
+          
+          <div class="hero-avatar reveal">
+            <div class="avatar-card">
+              <div class="avatar-glow"></div>
+              <div class="avatar-content">
+                <div class="avatar-placeholder">MS</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">Learn more about my journey</p>
+        </div>
+        
+        <div class="card about-card reveal">
+          <div class="card-content">
+            <p>👋 Hi, I'm <strong>Manav Sagar</strong>, a passionate Full Stack Developer with a love for building modern, user-friendly, and scalable web applications.</p>
+            
+            <p>Over time, I've worked on projects ranging from web apps to interactive solutions, always focusing on clean design and smooth user experience. I enjoy solving real-world problems with technology, learning new skills every day, and collaborating with people who share the same vision.</p>
+            
+            <p>Beyond coding, I value teamwork, leadership, and problem-solving, and I'm always excited to take on challenges that push me to grow as both a developer and a person.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">Skills & Technologies</h2>
+          <p class="section-subtitle">Core stack & tools I use</p>
+        </div>
+        
+        <div class="skills-grid reveal">
+          <div class="skill-item">
+            <span class="skill-icon">🌐</span>
+            <span class="skill-name">HTML</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-icon">🎨</span>
+            <span class="skill-name">CSS</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-icon">⚡</span>
+            <span class="skill-name">JavaScript</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-icon">⚛️</span>
+            <span class="skill-name">React</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-icon">🟢</span>
+            <span class="skill-name">Node.js</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-icon">🚀</span>
+            <span class="skill-name">Express.js</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-icon">🍃</span>
+            <span class="skill-name">MongoDB</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-icon">💨</span>
+            <span class="skill-name">Tailwind CSS</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-icon">📚</span>
+            <span class="skill-name">Git</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-icon">🔗</span>
+            <span class="skill-name">REST APIs</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-icon">🐍</span>
+            <span class="skill-name">Python</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-icon">🖼️</span>
+            <span class="skill-name">Tkinter</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">Selected work & impact</p>
+        </div>
+        
+        <div class="projects-grid">
+          <!-- Chat AI App -->
+          <article class="card project-card reveal">
+            <div class="project-image">
+              <img src="https://images.unsplash.com/photo-1526378722484-bd91ca387e72?q=80&w=1200&auto=format&fit=crop" 
+                   alt="Chat AI Application preview" 
+                   loading="lazy" />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">
+                    <span>View Live</span>
+                  </a>
+                  <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">
+                    <span>Source Code</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-meta">Dec 2024 • React, Tailwind, Gemini API</div>
+              <h3 class="project-title">Chat AI Application</h3>
+              <p class="project-description">
+                Responsive AI‑powered web app using React.js + Tailwind CSS. Integrated Google Gemini API for intelligent responses with print/export feature. Optimized front‑end performance, reducing response time by <strong>30%</strong>.
+              </p>
+            </div>
+          </article>
+
+          <!-- Music Streaming App -->
+          <article class="card project-card reveal">
+            <div class="project-image">
+              <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=1200&auto=format&fit=crop" 
+                   alt="Music streaming application preview" 
+                   loading="lazy" />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">
+                    <span>View Live</span>
+                  </a>
+                  <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">
+                    <span>Source Code</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-meta">Aug 2024 • React, APIs</div>
+              <h3 class="project-title">Music Streaming Application</h3>
+              <p class="project-description">
+                Feature‑rich music streaming platform built with React.js. Implemented favorite pinning, responsive UI, and API‑driven data handling. Achieved <strong>50% faster</strong> load time via API and state management optimizations.
+              </p>
+            </div>
+          </article>
+
+          <!-- Typing Speed App -->
+          <article class="card project-card reveal">
+            <div class="project-image">
+              <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=1200&auto=format&fit=crop" 
+                   alt="Typing speed test application preview" 
+                   loading="lazy" />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">
+                    <span>View Live</span>
+                  </a>
+                  <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">
+                    <span>Source Code</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-meta">Jan 2024 • Python, Tkinter</div>
+              <h3 class="project-title">Typing Speed & Accuracy Calculator</h3>
+              <p class="project-description">
+                Interactive typing test app with dynamic text generator and multiple difficulty levels. Shows WPM, accuracy, and errors in real‑time. Improved UI responsiveness increased user retention by <strong>40%</strong>.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">Experience & Education</h2>
+          <p class="section-subtitle">My professional journey</p>
+        </div>
+        
+        <div class="timeline reveal">
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h4 class="timeline-title">MERN Stack Developer <span class="timeline-company">• (QSpiders)</span></h4>
+              <div class="timeline-period">2025 - Present</div>
+              <p class="timeline-description">
+                Getting training in MongoDB, Express.js, React.js, and Node.js with industry-oriented projects
+              </p>
+            </div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h4 class="timeline-title">Master's Degree <span class="timeline-company">• (BPIBS - DSEU)</span></h4>
+              <div class="timeline-period">2023 - 2025</div>
+              <p class="timeline-description">
+                Masters of Computer Eduaction.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="section-subtitle">Let's build something great together</p>
+        </div>
+        
+        <div class="contact-grid">
+          <div class="card contact-info reveal">
+            <h3 class="contact-title">Connect With Me</h3>
+            <div class="contact-links">
+              <a href="mailto:manavsagar46@gmail.com" class="contact-link">
+                <span class="contact-icon">📧</span>
+                <span>manavsagar46@gmail.com</span>
+              </a>
+              <a href="https://linkedin.com/in/manavsagar46" target="_blank" rel="noopener noreferrer" class="contact-link">
+                <span class="contact-icon">💼</span>
+                <span>linkedin.com/in/manavsagar46</span>
+              </a>
+              <a href="https://github.com/manavsagar46" target="_blank" rel="noopener noreferrer" class="contact-link">
+                <span class="contact-icon">💻</span>
+                <span>github.com/manavsagar46</span>
+              </a>
+            </div>
+          </div>
+          
+          <div class="card contact-form-card reveal">
+            <h3 class="contact-title">Send a Message</h3>
+            <form class="contact-form" id="contactForm">
+              <div class="form-group">
+                <input type="text" name="name" class="form-input" placeholder="Your name" required />
+              </div>
+              <div class="form-group">
+                <input type="email" name="email" class="form-input" placeholder="Your email" required />
+              </div>
+              <div class="form-group">
+                <textarea name="message" class="form-textarea" placeholder="Your message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">
+                <span>Send Message</span>
+              </button>
+            </form>
+            <div id="formStatus" class="form-status"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="currentYear"></span> Made with ❤️ by Manav Sagar </p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
